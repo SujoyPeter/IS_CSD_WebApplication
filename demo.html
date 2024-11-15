@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <button id="mybutton">
+        Click Me
+    </button>
+    <p>Count is : </p>
+    <p id="bcount"></p>
+    <script>
+        var count = 0;
+        var button = document.getElementById("mybutton");
+        var result = document.getElementById("bcount");
+        button.onclick = function () {
+            count++;
+            result.innerHTML = count;
+        }   
+    </script>
+</body>
+
+</html>

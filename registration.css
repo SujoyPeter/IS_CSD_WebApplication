@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(38, 230, 237, 0.881);
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(48, 11, 158);
+}
+
+main {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.reg {
+    text-align: center;
+}
+
+::placeholder {
+    color: black;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.iform {
+    background-color: cornsilk;
+    text-align: center;
+    color: brown;
+    margin: 5px;
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.ibutton {
+    background: #0066a2;
+    color: white;
+    border-style: outset;
+    border-color: #0066a2;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+    margin-top: 20px;
+}

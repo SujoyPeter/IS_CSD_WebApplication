@@ -1,0 +1,91 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(48, 11, 158);
+    padding: 20px 0;
+}
+
+/* Social Media - Fixed on the Left */
+.social {
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Main Content Layout */
+.main-content {
+    display: flex;
+    gap: 20px;
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 80px;
+    /* Add padding to avoid overlap with social media */
+    padding-top: 20px;
+}
+
+/* News Content */
+.news-content {
+    flex: 3;
+    font-size: 18px;
+}
+
+/* Article List - Scrollable on the Right */
+.article-list {
+    flex: 1;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Individual Article Items */
+.article-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.article-text {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+/* Article Image */
+.article-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+}
